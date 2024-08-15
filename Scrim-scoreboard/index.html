@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3 class="header">HOME</h3>
+                <h2 id="home-score">0</h2>
+                <button id="homeone" onclick="increaseHomeOne()">+1</button>
+                <button id="hometwo" onclick="increaseHomeTwo()">+2</button>
+                <button id="homethree" onclick="increaseHomeThree()">+3</button>
+            </div>
+            <div class="guest">
+                <h3 class="header">GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <button id="guestone" onclick="increaseGuestOne()">+1</button>
+                <button id="guesttwo" onclick="increaseGuestTwo()">+2</button>
+                <button id="guestthree" onclick="increaseGuestThree()">+3</button>
+                
+            </div>
+            <button id="newgame" onclick="newGame()">NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
